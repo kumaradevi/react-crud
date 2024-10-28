@@ -8,7 +8,7 @@ app.use(express.json())
 //initialize the application
 app.use(express());
 app.use(cors({
-   origin:"http://localhost:5173" ,
+   origin:"http://localhost:5174" ,
    methods:["GET","POST","PATCH","DELETE"]
 }))
 

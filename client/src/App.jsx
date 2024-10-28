@@ -14,10 +14,7 @@ const App = () => {
     getData();
   }, []);
 
-  useEffect(() => {
-    console.log("data in useeffect", data);
-   
-  }, [data]);
+  
 
   const getData = async () => {
     try {
